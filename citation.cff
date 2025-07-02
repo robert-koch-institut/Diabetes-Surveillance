@@ -1,0 +1,157 @@
+cff-version: 1.2.0
+type: dataset
+title: Ergebnisse der Diabetes-Surveillance 2015 - 2024
+abstract: >-
+  Am Robert Koch-Institut (RKI) wurde im Zeitraum 2015-2024 ein
+  indikatorbasiertes Diabetes-Surveillance-System aufgebaut. Auf Basis
+  bundesweiter, verfügbarer Datenquellen (z.B. RKI-Befragungs- und
+  Untersuchungssurveys, Daten der gesetzlichen Krankenversicherungen und der
+  Amtlichen Statistik) werden 40 gesundheitspolitisch relevante Indikatoren bzw.
+  Indikatorgruppen in 4 Handlungsfeldern abgebildet. Die Ergebnisse werden pro
+  Indikator in einem Faktenblatt dargestellt, welches einem Handlungsfeld und
+  relevanten Altersbereich zugeordnet ist. Der Fokus des vorliegenden
+  Datensatzes liegt auf Indikatoren zu Krankheitsdynamik, Versorgungsqualität,
+  und Folgeerkrankungen des Diabetes mellitus sowie auf  verhaltens- bzw.
+  verhältnisbasierten Determinanten des Diabetes (z.B. „Rauchen“ bzw.
+  „Kontextfaktoren“), die gleichzeitig auch Einflussfaktoren für weitere
+  nichtübertragbare Erkrankungen (noncommunicable diseases, NCD), wie
+  Herz-Kreislauf-Erkrankungen, darstellen.
+
+
+  Der Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem
+  Publikationsserver des RKI veröffentlicht. Zukünftig werden ausgewählte
+  zentrale Diabetes-Indikatoren als Teil einer übergreifenden NCD-Surveillance
+  unter http://www.gbe.rki.de regelmäßig mit neuen Daten aktualisiert werden. 
+date-released: '2025-07-02'
+keywords:
+  - Adipositas
+  - Aktivitäten des täglichen Lebens
+  - Ambulante Behandlung
+  - Amputation
+  - Armut
+  - Ausbildungsstand
+  - Bevölkerungsgesundheit
+  - Bewegungsarme Lebensweise
+  - Chronische Krankheit
+  - Depression
+  - Depressive Störung
+  - Diabetes mellitus
+  - Diabeteskomplikationen
+  - Diät, Lebensmittel und Ernährung
+  - Erziehung und Ausbildung
+  - Fleisch
+  - Früchte
+  - Gemüse
+  - Gesundheitsausgaben
+  - Gesundheitsförderung
+  - Gesundheitspolitik
+  - Gesundheitsverhalten
+  - Gesundheitsversorgung
+  - Gesundheitszustand
+  - Gesundheitszustandsindikatoren
+  - Herz-Kreislauf-Krankheiten
+  - Koronararterienerkrankung
+  - Krankenhauseinweisung
+  - Körpergewicht
+  - Körperliches Training
+  - Langzeitbehandlung
+  - Lebenserwartung
+  - Medizinische Grundversorgung
+  - Mortalität
+  - Nahrungsaufnahmeverhalten
+  - Nichtübertragbare Krankheiten
+  - Primärprävention
+  - Psychische Störungen
+  - Qualität des Gesundheitswesens
+  - Rauchen
+  - Risikofaktoren
+  - Risikofaktoren für Herzkrankheiten
+  - Schlaganfall
+  - Sekundärprävention
+  - Soziale Faktoren
+  - Soziale Gesundheitsdeterminanten
+  - Soziales Umfeld
+  - Sozialökonomische Faktoren
+  - Steuern
+  - Tabak rauchen
+  - Todesursache
+  - Verhalten bei Gesundheitsrisiken
+  - Zuckergesüßte Getränke
+  - Öffentliche Berichterstattung über Gesundheitsdaten
+  - Öffentliches Gesundheitswesen
+  - Ökonomie
+  - Übergewicht
+  - RKI
+  - Offene Daten
+  - Deutschland
+  - Activities of Daily Living
+  - Ambulatory Care
+  - Amputation
+  - Body Weight
+  - Cardiovascular Diseases
+  - Cause of Death
+  - Chronic Disease
+  - Consumer Price Index
+  - Coronary Artery Disease
+  - Delivery of Health Care
+  - Depression
+  - Depressive Disorder
+  - Diabetes Complications
+  - Diabetes Mellitus
+  - Diet, Food, and Nutrition
+  - Dietary Behavior
+  - Education
+  - Educational status
+  - Fruit
+  - Gestational Diabetes Mellitus
+  - Health Behavior
+  - Health Expenditures
+  - Health Inequalities
+  - Health Policy
+  - Health Promotion
+  - Health Risk Behaviors
+  - Health Status
+  - Health Status Indicators
+  - Heart Disease Risk Factors
+  - Hospitalization
+  - Life Expectancy
+  - Long-Term Care
+  - Meat
+  - Mental Disorders
+  - Mortality
+  - Noncommunicable diseases
+  - Obesity
+  - Overweight
+  - Physical Activity
+  - Population Health
+  - Poverty
+  - Primary Health Care
+  - Primary Prevention
+  - Public Health
+  - Public Health Surveillance
+  - Public Reporting of Healthcare Data
+  - Quality of Health Care
+  - Risk Factors
+  - Secondary Prevention
+  - Sedentary Behavior
+  - Smoking
+  - Social Determinants of Health
+  - Social Environment
+  - Social Factors
+  - Socioeconomic Factors
+  - Stroke
+  - Sugar-Sweetened Beverages
+  - Taxes
+  - Tobacco Control
+  - Tobacco Smoking
+  - Vegetables
+  - Open Data
+  - Germany
+message: Cite me!
+url: https://robert-koch-institut.github.io/Diabetes-Surveillance/
+license: CC-BY-4.0
+doi: 10.5281/zenodo.14935276
+version: '2025-07-02T13:32:47+02:00'
+authors:
+  - name: Robert Koch-Institut
+    email: info@rki.de

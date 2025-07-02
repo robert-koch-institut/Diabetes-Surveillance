@@ -1,0 +1,568 @@
+{
+  "fields": [
+    {
+      "name": "Handlungsfeld_ID",
+      "type": "integer",
+      "description": "ID des Handlungsfelds",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "Handlungsfeld_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung des Handlungfelds",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Handlungsfeld 1 - Diabetesrisiko reduzieren",
+          "Handlungsfeld 2 - Diabetesfrüherkennung und -behandlung verbessern",
+          "Handlungsfeld 3 - Diabeteskomplikationen reduzieren",
+          "Handlungsfeld 4 - Krankheitslast und Krankheitskosten senken"
+        ]
+      }
+    },
+    {
+      "name": "Indikator_ID",
+      "type": "integer",
+      "description": "4- oder 5-stellige ID des Indikators",
+      "constraints": {
+        "required": true,
+        "minimum": 1011,
+        "maximum": 21510
+      }
+    },
+    {
+      "name": "Indikator_Name",
+      "type": "string",
+      "description": "Name des Indikators",
+      "constraints": {
+        "required": true
+      },
+      "example": "Prävalenz bekannter und unerkannter Diabetes"
+    },
+    {
+      "name": "Kennzahl_ID",
+      "type": "integer",
+      "description": "ID der Kennzahl insbesondere für mehrere Kennzahlen innerhalb des Indikators. Enthält 0, bei nur einer Kennzahl innerhalb des Indikators.",
+      "constraints": {
+        "required": true,
+        "minimum": 0,
+        "maximum": 8
+      }
+    },
+    {
+      "name": "Kennzahl_Name",
+      "type": "string",
+      "description": "Name der Kennzahl bei mehreren Kennzahlen innerhalb des Indikators. Entspricht Indikator_Name bei nur einer Kennzahl innerhalb des Indikators.",
+      "constraints": {
+        "required": true
+      },
+      "example": "Bekannter Diabetes"
+    },
+    {
+      "name": "Kennzahl_Definition",
+      "type": "string",
+      "description": "Definition der Kennzahl inklusive der Maßeinheit",
+      "constraints": {
+        "required": true
+      },
+      "example": "Anzahl der Personen in Millionen"
+    },
+    {
+      "name": "Lebensphase_ID",
+      "type": "integer",
+      "description": "ID der Lebensphase: \n`0`= Erwachsene\n`1`= Kinder und Jugendliche\n`2`= Allgemein/Alle Altersgruppen",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "Lebensphase_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Lebensphase",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "Jahr",
+      "type": "integer",
+      "description": "Jahr, auf das sich die Kennzahl bezieht",
+      "format": "%Y",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "Geschlecht_ID",
+      "type": "integer",
+      "description": "ID des Geschlechts (Definition siehe Beschreibung des jeweiligen Indikators): `0` = Gesamt, `1` = Weiblich, `2` = Männlich. Enthält `NA`, wenn der Indikator nicht auf Geschlecht bezogen ist.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "0",
+          "1",
+          "2"
+        ]
+      }
+    },
+    {
+      "name": "Geschlecht_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung des Geschlechts. Enthält `NA`, wenn der Indikator nicht auf Geschlecht bezogen ist.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "Gesamt",
+          "Weiblich",
+          "Männlich"
+        ]
+      }
+    },
+    {
+      "name": "Alter_ID",
+      "type": "string",
+      "description": "Altersgruppen in Jahren in der Form \"von-bis\", z.B. `30-39`= 30-39 Jahre, oder in der Form \"von+\", z.B. `75+` = >=75 Jahre. Der Wert `00+` beinhaltet alle Altersgruppen. Enthält `NA`, wenn der Indikator nicht altersbezogen ist.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "00-02",
+          "00-06",
+          "00-09",
+          "00-14",
+          "00-17",
+          "00-19",
+          "00-24",
+          "00-29",
+          "00+",
+          "03-06",
+          "07-10",
+          "10-19",
+          "11-13",
+          "14-17",
+          "15-29",
+          "18-24",
+          "18-29",
+          "18-34",
+          "18-44",
+          "20-24",
+          "20-29",
+          "25-29",
+          "25-49",
+          "30-34",
+          "30-39",
+          "30-44",
+          "35-39",
+          "35-49",
+          "40-44",
+          "40-49",
+          "40+",
+          "45-64",
+          "45+",
+          "50-59",
+          "50-64",
+          "60-64",
+          "60-69",
+          "60+",
+          "65-74",
+          "65-79",
+          "65-84",
+          "65+",
+          "70-79",
+          "75-79",
+          "75+",
+          "80+",
+          "85+"
+        ]
+      }
+    },
+    {
+      "name": "Alter_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Altersgruppe. Enthält `NA`, wenn der Indikator nicht altersbezogen ist.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "<3 Jahre",
+          "<7 Jahre",
+          "<10 Jahre",
+          "<15 Jahre",
+          "<18 Jahre",
+          "<20 Jahre",
+          "<25 Jahre",
+          "<30 Jahre",
+          "Gesamt",
+          "3-6 Jahre",
+          "7-10 Jahre",
+          "10-19 Jahre",
+          "11-13 Jahre",
+          "14-17 Jahre",
+          "15-29 Jahre",
+          "18-24 Jahre",
+          "18-29 Jahre",
+          "18-34 Jahre",
+          "18-44 Jahre",
+          "20-24 Jahre",
+          "20-29 Jahre",
+          "25-29 Jahre",
+          "25-49 Jahre",
+          "30-34 Jahre",
+          "30-39 Jahre",
+          "30-44 Jahre",
+          "35-39 Jahre",
+          "35-49 Jahre",
+          "40-44 Jahre",
+          "40-49 Jahre",
+          "≥40 Jahre",
+          "45-64 Jahre",
+          "≥45 Jahre",
+          "50-59 Jahre",
+          "50-64 Jahre",
+          "60-64 Jahre",
+          "60-69 Jahre",
+          "≥60 Jahre",
+          "65-74 Jahre",
+          "65-79 Jahre",
+          "65-84 Jahre",
+          "≥65 Jahre",
+          "70-79 Jahre",
+          "75-79 Jahre",
+          "≥75 Jahre",
+          "≥80 Jahre",
+          "≥85 Jahre"
+        ]
+      }
+    },
+    {
+      "name": "Region_ID",
+      "type": "string",
+      "description": "Land, Bundesland bzw. Region: `00` = Deutschland, `01`-`16` = Bundesländer, `21`-`25` = Zusammenfassung der Bundesländer in fünf Regionen (siehe [Regionalcodes](https://github.com/robert-koch-institut/Diabetes-Surveillance/tree/main?tab=readme-ov-file#Regionalcodes), `31`-`32` = Ost/West, `AT`-`UA` = europäische Länder nach ISO 3166-1-ALPHA-2",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "00",
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "31",
+          "32",
+          "AT",
+          "BA",
+          "BE",
+          "BG",
+          "CH",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "RS",
+          "RU",
+          "SE",
+          "SI",
+          "SK",
+          "TR",
+          "UA"
+        ]
+      }
+    },
+    {
+      "name": "Region_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Region",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Baden-Württemberg",
+          "Bayern",
+          "Belgien",
+          "Berlin",
+          "Bosnien und Herzegowina",
+          "Brandenburg",
+          "Bremen",
+          "Bulgarien",
+          "Deutschland",
+          "Dänemark",
+          "Estland",
+          "Finnland",
+          "Frankreich",
+          "Griechenland",
+          "Hamburg",
+          "Hessen",
+          "Irland",
+          "Island",
+          "Israel",
+          "Italien",
+          "Kroatien",
+          "Lettland",
+          "Litauen",
+          "Luxemburg",
+          "Malta",
+          "Mecklenburg-Vorpommern",
+          "Mitte-Ost",
+          "Mitte-West",
+          "Niederlande",
+          "Niedersachsen",
+          "Nordost",
+          "Nordrhein-Westfalen",
+          "Nordwest",
+          "Norwegen",
+          "Ost",
+          "Polen",
+          "Portugal",
+          "Rheinland-Pfalz",
+          "Rumänien",
+          "Russland",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Schweden",
+          "Schweiz",
+          "Serbien",
+          "Slowakei",
+          "Slowenien",
+          "Spanien",
+          "Süden",
+          "Thüringen",
+          "Tschechien",
+          "Türkei",
+          "Ukraine",
+          "Ungarn",
+          "Vereinigtes Königreich",
+          "West",
+          "Zypern",
+          "Österreich"
+        ]
+      }
+    },
+    {
+      "name": "Bildung_Casmin_ID",
+      "type": "string",
+      "description": "Bildungsgruppe anhand des CASMIN-Indexes ([Brauns et al. 2003](https://doi.org/10.1007/978-1-4419-9186-7_11)). Dieser verwendet Angaben zu schulischer und beruflicher Bildung und ermöglicht die Einteilung der  Bildungsgruppen in `1` = untere, `2`= mittlere, `3`= obere. Die Ausprägung `4`= mittlere/obere enthält die mittlere und obere Bildungsgruppe. Die Ausprägung `0` = Gesamt beinhaltet alle Bildungsgruppen. Enthält `NA`, wenn der Indikator nicht nach Bildung stratifiziert wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    {
+      "name": "Bildung_Casmin_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Bildung. Enthält `NA`, wenn der Indikator nicht nach Bildung stratifiziert wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "Gesamt",
+          "untere",
+          "mittlere",
+          "obere",
+          "mittlere/obere"
+        ]
+      }
+    },
+    {
+      "name": "Bildung_Isced_ID",
+      "type": "string",
+      "description": "Bildungsgruppe anhand des ISCED-Indexes (UNESCO (2011): International Standard Classification of Education ISCED 2011. Quebec: UNESCO Institute for Statistics; 2012 [cited 30.04.2025]. Available from:.\nhttps://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf). Dieser verwendet Angaben zu schulischer und beruflicher Bildung und ermöglicht die Einteilung der Bildungsgruppen in `1` = untere, `2`= mittlere, `3`= obere. Die Ausprägung `0` = Gesamt beinhaltet alle Bildungsgruppen. Enthält `NA`, für alle Indikatoren außer Armutsrisikoquote.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "Bildung_Isced_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Bildung nach ISCED. Enthält `NA`, für alle Indikatoren außer Artmutsrisikoquote.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "Gesamt",
+          "untere",
+          "mittlere",
+          "obere"
+        ]
+      }
+    },
+    {
+      "name": "GISD_ID",
+      "type": "string",
+      "description": "Regionale sozioökonomische Deprivation auf Grundlage des German Index of Socioeconomic Deprivation (GISD) ([Michalski et al. 2022](https://doi.org/10.25646/10640)). Der GISD fasst Merkmale der Erwerbs-, Bildungs- und Einkommenssituation für jeden Kreis und jede kreisfreie Stadt in einer Kennzahl zusammen. Die Kreise werden entlang ihrer GISD-Werte in Quintile von niedriger bis hoher sozioökonomischer Deprivation eingeteilt, die über den Wohnort verknüpft werden: Einteilung der Deprivation in `1` = niedrig - 1. Quintil, `2` = 2. Quintil, `3` = 3. Quintil, `4` = 4. Quintil und `5` = hoch - 5. Quintil. Die Ausprägung `0` = Gesamt beinhaltet alle Quintile. Unterschiede in den Werten nach sozioökonomischer Deprivation beziehen sich auf die räumliche Ebene.\nEnthält `NA`, wenn der Indikator nicht nach GISD stratifiziert wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "name": "GISD_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der regionalen sozioökonomische Deprivation. Enthält `NA`, wenn der Indikator nicht nach GISD stratifiziert wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "Gesamt",
+          "niedrig - 1. Quintil",
+          "2. Quintil",
+          "3. Quintil",
+          "4. Quintil",
+          "hoch - 5. Quintil"
+        ]
+      }
+    },
+    {
+      "name": "Standardisierung_ID",
+      "type": "integer",
+      "description": "Art der Standardisierung für die Berechnung des Wertes:\n`0` = beobachtet\n`1` = beobachtet relativ\n`2`= beobachtet absolut\n`3` = altersstandardisiert",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "Standardisierung_Name",
+      "type": "string",
+      "description": "Textliche Bezeichnung der Standardisierung",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "enum": [
+          "beobachtet",
+          "beobachtet relativ",
+          "beobachtet absolut",
+          "altersstandardisiert"
+        ]
+      }
+    },
+    {
+      "name": "Wert",
+      "type": "number",
+      "description": "Wert der Kennzahl. Enthält `NA`, wenn der Wert nicht verfügbar ist oder nicht veröffentlicht wird.",
+      "missingValues": [
+        "NA"
+      ],
+      "example": "1.7"
+    },
+    {
+      "name": "Unteres_Konfidenzintervall",
+      "type": "string",
+      "description": "Untere Grenze des 95%-Konfidenzintervalls. \nEnthält `NA`, wenn für den Wert kein Konfidenzintervall berechnet wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "example": "1.09"
+    },
+    {
+      "name": "Oberes_Konfidenzintervall",
+      "type": "string",
+      "description": "Obere Grenze des 95%-Konfidenzintervalls. \nEnthält `NA`, wenn für den Wert kein Konfidenzintervall berechnet wurde.",
+      "missingValues": [
+        "NA"
+      ],
+      "example": "2.7"
+    },
+    {
+      "name": "Datenstand",
+      "type": "date",
+      "description": "Datum im ISO-Format, an dem der Indikator zuletzt aktualisiert wurde",
+      "format": "%Y-%m-%d",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
+}

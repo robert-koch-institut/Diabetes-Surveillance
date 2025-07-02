@@ -1,0 +1,436 @@
+{
+  "title": "Ergebnisse der Diabetes-Surveillance 2015 - 2024",
+  "description": "<p>Am Robert Koch-Institut (RKI) wurde im Zeitraum 2015-2024 ein indikatorbasiertes Diabetes-Surveillance-System aufgebaut. Auf Basis bundesweiter, verfügbarer Datenquellen (z.B. RKI-Befragungs- und Untersuchungssurveys, Daten der gesetzlichen Krankenversicherungen und der Amtlichen Statistik) werden 40 gesundheitspolitisch relevante Indikatoren bzw. Indikatorgruppen in 4 Handlungsfeldern abgebildet. Die Ergebnisse werden pro Indikator in einem Faktenblatt dargestellt, welches einem Handlungsfeld und relevanten Altersbereich zugeordnet ist. Der Fokus des vorliegenden Datensatzes liegt auf Indikatoren zu Krankheitsdynamik, Versorgungsqualität, und Folgeerkrankungen des Diabetes mellitus sowie auf  verhaltens- bzw. verhältnisbasierten Determinanten des Diabetes (z.B. „Rauchen“ bzw. „Kontextfaktoren“), die gleichzeitig auch Einflussfaktoren für weitere nichtübertragbare Erkrankungen (noncommunicable diseases, NCD), wie Herz-Kreislauf-Erkrankungen, darstellen.<br />\nDer Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem Publikationsserver des RKI veröffentlicht. Zukünftig werden ausgewählte zentrale Diabetes-Indikatoren als Teil einer übergreifenden NCD-Surveillance unter http://www.gbe.rki.de regelmäßig mit neuen Daten aktualisiert werden.</p>\n",
+  "resource_type": {
+    "id": "dataset"
+  },
+  "publication_date": "2025-07-02",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Robert Koch-Institut"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Team der Nationalen Diabetes-Surveillance"
+      },
+      "role": {
+        "id": "projectleader"
+      }
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2025-07-02",
+  "dates": [
+    {
+      "date": "2025-07-02T13:32:47+02:00",
+      "type": {
+        "id": "created"
+      },
+      "description": "Date when the dataset was created"
+    }
+  ],
+  "languages": [
+    {
+      "id": "deu"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto"
+      },
+      "identifier": "https://github.com/robert-koch-institut/Diabetes-Surveillance",
+      "resource_type": {
+        "id": "dataset"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Adipositas"
+    },
+    {
+      "subject": "Aktivitäten des täglichen Lebens"
+    },
+    {
+      "subject": "Ambulante Behandlung"
+    },
+    {
+      "subject": "Amputation"
+    },
+    {
+      "subject": "Armut"
+    },
+    {
+      "subject": "Ausbildungsstand"
+    },
+    {
+      "subject": "Bevölkerungsgesundheit"
+    },
+    {
+      "subject": "Bewegungsarme Lebensweise"
+    },
+    {
+      "subject": "Chronische Krankheit"
+    },
+    {
+      "subject": "Depression"
+    },
+    {
+      "subject": "Depressive Störung"
+    },
+    {
+      "subject": "Diabetes mellitus"
+    },
+    {
+      "subject": "Diabeteskomplikationen"
+    },
+    {
+      "subject": "Diät, Lebensmittel und Ernährung"
+    },
+    {
+      "subject": "Erziehung und Ausbildung"
+    },
+    {
+      "subject": "Fleisch"
+    },
+    {
+      "subject": "Früchte"
+    },
+    {
+      "subject": "Gemüse"
+    },
+    {
+      "subject": "Gesundheitsausgaben"
+    },
+    {
+      "subject": "Gesundheitsförderung"
+    },
+    {
+      "subject": "Gesundheitspolitik"
+    },
+    {
+      "subject": "Gesundheitsverhalten"
+    },
+    {
+      "subject": "Gesundheitsversorgung"
+    },
+    {
+      "subject": "Gesundheitszustand"
+    },
+    {
+      "subject": "Gesundheitszustandsindikatoren"
+    },
+    {
+      "subject": "Herz-Kreislauf-Krankheiten"
+    },
+    {
+      "subject": "Koronararterienerkrankung"
+    },
+    {
+      "subject": "Krankenhauseinweisung"
+    },
+    {
+      "subject": "Körpergewicht"
+    },
+    {
+      "subject": "Körperliches Training"
+    },
+    {
+      "subject": "Langzeitbehandlung"
+    },
+    {
+      "subject": "Lebenserwartung"
+    },
+    {
+      "subject": "Medizinische Grundversorgung"
+    },
+    {
+      "subject": "Mortalität"
+    },
+    {
+      "subject": "Nahrungsaufnahmeverhalten"
+    },
+    {
+      "subject": "Nichtübertragbare Krankheiten"
+    },
+    {
+      "subject": "Primärprävention"
+    },
+    {
+      "subject": "Psychische Störungen"
+    },
+    {
+      "subject": "Qualität des Gesundheitswesens"
+    },
+    {
+      "subject": "Rauchen"
+    },
+    {
+      "subject": "Risikofaktoren"
+    },
+    {
+      "subject": "Risikofaktoren für Herzkrankheiten"
+    },
+    {
+      "subject": "Schlaganfall"
+    },
+    {
+      "subject": "Sekundärprävention"
+    },
+    {
+      "subject": "Soziale Faktoren"
+    },
+    {
+      "subject": "Soziale Gesundheitsdeterminanten"
+    },
+    {
+      "subject": "Soziales Umfeld"
+    },
+    {
+      "subject": "Sozialökonomische Faktoren"
+    },
+    {
+      "subject": "Steuern"
+    },
+    {
+      "subject": "Tabak rauchen"
+    },
+    {
+      "subject": "Todesursache"
+    },
+    {
+      "subject": "Verhalten bei Gesundheitsrisiken"
+    },
+    {
+      "subject": "Zuckergesüßte Getränke"
+    },
+    {
+      "subject": "Öffentliche Berichterstattung über Gesundheitsdaten"
+    },
+    {
+      "subject": "Öffentliches Gesundheitswesen"
+    },
+    {
+      "subject": "Ökonomie"
+    },
+    {
+      "subject": "Übergewicht"
+    },
+    {
+      "subject": "RKI"
+    },
+    {
+      "subject": "Offene Daten"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "Activities of Daily Living"
+    },
+    {
+      "subject": "Ambulatory Care"
+    },
+    {
+      "subject": "Amputation"
+    },
+    {
+      "subject": "Body Weight"
+    },
+    {
+      "subject": "Cardiovascular Diseases"
+    },
+    {
+      "subject": "Cause of Death"
+    },
+    {
+      "subject": "Chronic Disease"
+    },
+    {
+      "subject": "Consumer Price Index"
+    },
+    {
+      "subject": "Coronary Artery Disease"
+    },
+    {
+      "subject": "Delivery of Health Care"
+    },
+    {
+      "subject": "Depression"
+    },
+    {
+      "subject": "Depressive Disorder"
+    },
+    {
+      "subject": "Diabetes Complications"
+    },
+    {
+      "subject": "Diabetes Mellitus"
+    },
+    {
+      "subject": "Diet, Food, and Nutrition"
+    },
+    {
+      "subject": "Dietary Behavior"
+    },
+    {
+      "subject": "Education"
+    },
+    {
+      "subject": "Educational status"
+    },
+    {
+      "subject": "Fruit"
+    },
+    {
+      "subject": "Gestational Diabetes Mellitus"
+    },
+    {
+      "subject": "Health Behavior"
+    },
+    {
+      "subject": "Health Expenditures"
+    },
+    {
+      "subject": "Health Inequalities"
+    },
+    {
+      "subject": "Health Policy"
+    },
+    {
+      "subject": "Health Promotion"
+    },
+    {
+      "subject": "Health Risk Behaviors"
+    },
+    {
+      "subject": "Health Status"
+    },
+    {
+      "subject": "Health Status Indicators"
+    },
+    {
+      "subject": "Heart Disease Risk Factors"
+    },
+    {
+      "subject": "Hospitalization"
+    },
+    {
+      "subject": "Life Expectancy"
+    },
+    {
+      "subject": "Long-Term Care"
+    },
+    {
+      "subject": "Meat"
+    },
+    {
+      "subject": "Mental Disorders"
+    },
+    {
+      "subject": "Mortality"
+    },
+    {
+      "subject": "Noncommunicable diseases"
+    },
+    {
+      "subject": "Obesity"
+    },
+    {
+      "subject": "Overweight"
+    },
+    {
+      "subject": "Physical Activity"
+    },
+    {
+      "subject": "Population Health"
+    },
+    {
+      "subject": "Poverty"
+    },
+    {
+      "subject": "Primary Health Care"
+    },
+    {
+      "subject": "Primary Prevention"
+    },
+    {
+      "subject": "Public Health"
+    },
+    {
+      "subject": "Public Health Surveillance"
+    },
+    {
+      "subject": "Public Reporting of Healthcare Data"
+    },
+    {
+      "subject": "Quality of Health Care"
+    },
+    {
+      "subject": "Risk Factors"
+    },
+    {
+      "subject": "Secondary Prevention"
+    },
+    {
+      "subject": "Sedentary Behavior"
+    },
+    {
+      "subject": "Smoking"
+    },
+    {
+      "subject": "Social Determinants of Health"
+    },
+    {
+      "subject": "Social Environment"
+    },
+    {
+      "subject": "Social Factors"
+    },
+    {
+      "subject": "Socioeconomic Factors"
+    },
+    {
+      "subject": "Stroke"
+    },
+    {
+      "subject": "Sugar-Sweetened Beverages"
+    },
+    {
+      "subject": "Taxes"
+    },
+    {
+      "subject": "Tobacco Control"
+    },
+    {
+      "subject": "Tobacco Smoking"
+    },
+    {
+      "subject": "Vegetables"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "Germany"
+    }
+  ],
+  "custom_fields": {
+    "legacy:communities": [
+      "robertkochinstitut"
+    ]
+  }
+}
