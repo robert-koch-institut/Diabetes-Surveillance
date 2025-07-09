@@ -1,0 +1,664 @@
+{
+  "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
+    "collection": [
+      "Robert Koch Institute"
+    ],
+    "descriptions": [
+      {
+        "language": "DE (German)",
+        "text": "Am Robert Koch-Institut (RKI) wurde im Zeitraum 2015-2024 ein indikatorbasiertes Diabetes-Surveillance-System aufgebaut. Auf Basis bundesweiter, verfügbarer Datenquellen (z.B. RKI-Befragungs- und Untersuchungssurveys, Daten der gesetzlichen Krankenversicherungen und der Amtlichen Statistik) werden 40 gesundheitspolitisch relevante Indikatoren bzw. Indikatorgruppen in 4 Handlungsfeldern abgebildet. Die Ergebnisse werden pro Indikator in einem Faktenblatt dargestellt, welches einem Handlungsfeld und relevanten Altersbereich zugeordnet ist. Der Fokus des vorliegenden Datensatzes liegt auf Indikatoren zu Krankheitsdynamik, Versorgungsqualität, und Folgeerkrankungen des Diabetes mellitus sowie auf  verhaltens- bzw. verhältnisbasierten Determinanten des Diabetes (z.B. „Rauchen“ bzw. „Kontextfaktoren“), die gleichzeitig auch Einflussfaktoren für weitere nichtübertragbare Erkrankungen (noncommunicable diseases, NCD), wie Herz-Kreislauf-Erkrankungen, darstellen.\n\nDer Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem Publikationsserver des RKI veröffentlicht. Zukünftig werden ausgewählte zentrale Diabetes-Indikatoren als Teil einer übergreifenden NCD-Surveillance unter http://www.gbe.rki.de regelmäßig mit neuen Daten aktualisiert werden. "
+      }
+    ],
+    "titles": [
+      {
+        "language": "DE (German)",
+        "text": "Ergebnisse der Diabetes-Surveillance 2015 - 2024"
+      }
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.14935276",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B",
+        "scheme": "DOI"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/Diabetes-Surveillance",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset",
+        "scheme": "URL"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "Diabetes mellitus",
+        "code": "http://id.nlm.nih.gov/mesh/D003920"
+      },
+      {
+        "label": "Blood Glucose",
+        "code": "http://id.nlm.nih.gov/mesh/D001786"
+      },
+      {
+        "label": "Blutglukose",
+        "code": "http://id.nlm.nih.gov/mesh/D001786"
+      },
+      {
+        "label": "Metabolic Diseases",
+        "code": "http://id.nlm.nih.gov/mesh/D008659"
+      },
+      {
+        "label": "Stoffwechselerkrankungen",
+        "code": "http://id.nlm.nih.gov/mesh/D008659"
+      },
+      {
+        "label": "Public Health",
+        "code": "http://id.nlm.nih.gov/mesh/D011634"
+      },
+      {
+        "label": "Öffentliches Gesundheitswesen",
+        "code": "http://id.nlm.nih.gov/mesh/D011634"
+      },
+      {
+        "label": "Qualität des Gesundheitswesens",
+        "code": "http://id.nlm.nih.gov/mesh/D011787"
+      },
+      {
+        "label": "Quality of Health Care",
+        "code": "http://id.nlm.nih.gov/mesh/D011787"
+      },
+      {
+        "label": "Chronische Krankheit",
+        "code": "http://id.nlm.nih.gov/mesh/D002908"
+      },
+      {
+        "label": "Chronic Disease",
+        "code": "http://id.nlm.nih.gov/mesh/D002908"
+      },
+      {
+        "label": "RKI"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "Offene Daten"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "Nichtübertragbare Krankheiten",
+        "code": "http://id.nlm.nih.gov/mesh/D000073296"
+      },
+      {
+        "label": "Noncommunicable diseases",
+        "code": "http://id.nlm.nih.gov/mesh/D000073296"
+      },
+      {
+        "label": "Risikofaktoren",
+        "code": "http://id.nlm.nih.gov/mesh/D012307"
+      },
+      {
+        "label": "Risk Factors",
+        "code": "http://id.nlm.nih.gov/mesh/D012307"
+      },
+      {
+        "label": "Adipositas",
+        "code": "http://id.nlm.nih.gov/mesh/D009765"
+      },
+      {
+        "label": "Aktivitäten des täglichen Lebens",
+        "code": "http://id.nlm.nih.gov/mesh/D000203"
+      },
+      {
+        "label": "Ambulante Behandlung",
+        "code": "http://id.nlm.nih.gov/mesh/D000553"
+      },
+      {
+        "label": "Amputation",
+        "code": "http://id.nlm.nih.gov/mesh/D000671"
+      },
+      {
+        "label": "Armut",
+        "code": "http://id.nlm.nih.gov/mesh/D011203"
+      },
+      {
+        "label": "Ausbildungsstand",
+        "code": "http://id.nlm.nih.gov/mesh/D004522"
+      },
+      {
+        "label": "Bewegungsarme Lebensweise",
+        "code": "http://id.nlm.nih.gov/mesh/D057185"
+      },
+      {
+        "label": "Depression",
+        "code": "http://id.nlm.nih.gov/mesh/D003863"
+      },
+      {
+        "label": "Depressive Störung",
+        "code": "http://id.nlm.nih.gov/mesh/D003866"
+      },
+      {
+        "label": "Diabeteskomplikationen",
+        "code": "http://id.nlm.nih.gov/mesh/D048909"
+      },
+      {
+        "label": "Diät, Lebensmittel und Ernährung",
+        "code": "http://id.nlm.nih.gov/mesh/D000066888"
+      },
+      {
+        "label": "Erziehung und Ausbildung",
+        "code": "http://id.nlm.nih.gov/mesh/D004493"
+      },
+      {
+        "label": "Fleisch",
+        "code": "http://id.nlm.nih.gov/mesh/D008460"
+      },
+      {
+        "label": "Früchte",
+        "code": "http://id.nlm.nih.gov/mesh/D005638"
+      },
+      {
+        "label": "Gemüse",
+        "code": "http://id.nlm.nih.gov/mesh/D014675"
+      },
+      {
+        "label": "Gesundheitsausgaben",
+        "code": "http://id.nlm.nih.gov/mesh/D005102"
+      },
+      {
+        "label": "Bevölkerungsgesundheit",
+        "code": "http://id.nlm.nih.gov/mesh/D000075485"
+      },
+      {
+        "label": "Gesundheitsförderung",
+        "code": "http://id.nlm.nih.gov/mesh/D006293"
+      },
+      {
+        "label": "Gesundheitspolitik",
+        "code": "http://id.nlm.nih.gov/mesh/D006291"
+      },
+      {
+        "label": "Gesundheitsversorgung",
+        "code": "http://id.nlm.nih.gov/mesh/D003695"
+      },
+      {
+        "label": "Gesundheitszustand",
+        "code": "http://id.nlm.nih.gov/mesh/D006304"
+      },
+      {
+        "label": "Gesundheitszustandsindikatoren",
+        "code": "http://id.nlm.nih.gov/mesh/D006305"
+      },
+      {
+        "label": "Herz-Kreislauf-Krankheiten",
+        "code": "http://id.nlm.nih.gov/mesh/D002318"
+      },
+      {
+        "label": "Koronararterienerkrankung",
+        "code": "http://id.nlm.nih.gov/mesh/D003324"
+      },
+      {
+        "label": "Krankenhauseinweisung",
+        "code": "http://id.nlm.nih.gov/mesh/D006760"
+      },
+      {
+        "label": "Körpergewicht",
+        "code": "http://id.nlm.nih.gov/mesh/D001835"
+      },
+      {
+        "label": "Körperliches Training",
+        "code": "http://id.nlm.nih.gov/mesh/D015444"
+      },
+      {
+        "label": "Langzeitbehandlung",
+        "code": "http://id.nlm.nih.gov/mesh/D008134"
+      },
+      {
+        "label": "Lebenserwartung",
+        "code": "http://id.nlm.nih.gov/mesh/D008017"
+      },
+      {
+        "label": "Medizinische Grundversorgung",
+        "code": "http://id.nlm.nih.gov/mesh/D011320"
+      },
+      {
+        "label": "Mortalität",
+        "code": "http://id.nlm.nih.gov/mesh/D009026"
+      },
+      {
+        "label": "Nahrungsaufnahmeverhalten",
+        "code": "http://id.nlm.nih.gov/mesh/D005247"
+      },
+      {
+        "label": "Primärprävention",
+        "code": "http://id.nlm.nih.gov/mesh/D011322"
+      },
+      {
+        "label": "Psychische Störungen",
+        "code": "http://id.nlm.nih.gov/mesh/D001523"
+      },
+      {
+        "label": "Gesundheitsverhalten",
+        "code": "http://id.nlm.nih.gov/mesh/D015438"
+      },
+      {
+        "label": "Health Behavior",
+        "code": "http://id.nlm.nih.gov/mesh/D015438"
+      },
+      {
+        "label": "Rauchen",
+        "code": "http://id.nlm.nih.gov/mesh/D012907"
+      },
+      {
+        "label": "Risikofaktoren für Herzkrankheiten",
+        "code": "http://id.nlm.nih.gov/mesh/D000082742"
+      },
+      {
+        "label": "Schlaganfall",
+        "code": "http://id.nlm.nih.gov/mesh/D020521"
+      },
+      {
+        "label": "Sekundärprävention",
+        "code": "http://id.nlm.nih.gov/mesh/D055502"
+      },
+      {
+        "label": "Soziale Faktoren",
+        "code": "http://id.nlm.nih.gov/mesh/D000083663"
+      },
+      {
+        "label": "Soziale Gesundheitsdeterminanten",
+        "code": "http://id.nlm.nih.gov/mesh/D064890"
+      },
+      {
+        "label": "Soziales Umfeld",
+        "code": "http://id.nlm.nih.gov/mesh/D012931"
+      },
+      {
+        "label": "Sozialökonomische Faktoren",
+        "code": "http://id.nlm.nih.gov/mesh/D012959"
+      },
+      {
+        "label": "Steuern",
+        "code": "http://id.nlm.nih.gov/mesh/D013660"
+      },
+      {
+        "label": "Tabak rauchen",
+        "code": "http://id.nlm.nih.gov/mesh/D000073869"
+      },
+      {
+        "label": "Todesursache",
+        "code": "http://id.nlm.nih.gov/mesh/D002423"
+      },
+      {
+        "label": "Verhalten bei Gesundheitsrisiken",
+        "code": "http://id.nlm.nih.gov/mesh/D000073599"
+      },
+      {
+        "label": "Zuckergesüßte Getränke",
+        "code": "http://id.nlm.nih.gov/mesh/D000080845"
+      },
+      {
+        "label": "Öffentliche Berichterstattung über Gesundheitsdaten",
+        "code": "http://id.nlm.nih.gov/mesh/D000079204"
+      },
+      {
+        "label": "Ökonomie",
+        "code": "http://id.nlm.nih.gov/mesh/D004467"
+      },
+      {
+        "label": "Übergewicht",
+        "code": "http://id.nlm.nih.gov/mesh/D050177"
+      },
+      {
+        "label": "Activities of Daily Living",
+        "code": "http://id.nlm.nih.gov/mesh/D000203"
+      },
+      {
+        "label": "Ambulatory Care",
+        "code": "http://id.nlm.nih.gov/mesh/D000553"
+      },
+      {
+        "label": "Amputation",
+        "code": "http://id.nlm.nih.gov/mesh/D000671"
+      },
+      {
+        "label": "Body Weight",
+        "code": "http://id.nlm.nih.gov/mesh/D001835"
+      },
+      {
+        "label": "Cardiovascular Diseases",
+        "code": "http://id.nlm.nih.gov/mesh/D002318"
+      },
+      {
+        "label": "Cause of Death",
+        "code": "http://id.nlm.nih.gov/mesh/D002423"
+      },
+      {
+        "label": "Consumer Price Index",
+        "code": "http://id.nlm.nih.gov/mesh/D004467"
+      },
+      {
+        "label": "Coronary Artery Disease",
+        "code": "http://id.nlm.nih.gov/mesh/D003324"
+      },
+      {
+        "label": "Delivery of Health Care",
+        "code": "http://id.nlm.nih.gov/mesh/D003695"
+      },
+      {
+        "label": "Depression",
+        "code": "http://id.nlm.nih.gov/mesh/D003863"
+      },
+      {
+        "label": "Depressive Disorder",
+        "code": "http://id.nlm.nih.gov/mesh/D003866"
+      },
+      {
+        "label": "Diabetes Complications",
+        "code": "http://id.nlm.nih.gov/mesh/D048909"
+      },
+      {
+        "label": "Diabetes Mellitus",
+        "code": "http://id.nlm.nih.gov/mesh/D003920"
+      },
+      {
+        "label": "Diet, Food, and Nutrition",
+        "code": "http://id.nlm.nih.gov/mesh/D000066888"
+      },
+      {
+        "label": "Dietary Behavior",
+        "code": "http://id.nlm.nih.gov/mesh/D005247"
+      },
+      {
+        "label": "Education",
+        "code": "http://id.nlm.nih.gov/mesh/D004493"
+      },
+      {
+        "label": "Educational status",
+        "code": "http://id.nlm.nih.gov/mesh/D004522"
+      },
+      {
+        "label": "Fruit",
+        "code": "http://id.nlm.nih.gov/mesh/D005638"
+      },
+      {
+        "label": "Gestational Diabetes Mellitus",
+        "code": "http://id.nlm.nih.gov/mesh/D016640"
+      },
+      {
+        "label": "Health Expenditures",
+        "code": "http://id.nlm.nih.gov/mesh/D005102"
+      },
+      {
+        "label": "Health Inequalities",
+        "code": "http://id.nlm.nih.gov/mesh/D000091682"
+      },
+      {
+        "label": "Health Policy",
+        "code": "http://id.nlm.nih.gov/mesh/D006291"
+      },
+      {
+        "label": "Health Promotion",
+        "code": "http://id.nlm.nih.gov/mesh/D006293"
+      },
+      {
+        "label": "Health Risk Behaviors",
+        "code": "http://id.nlm.nih.gov/mesh/D000073599"
+      },
+      {
+        "label": "Health Status",
+        "code": "http://id.nlm.nih.gov/mesh/D006304"
+      },
+      {
+        "label": "Health Status Indicators",
+        "code": "http://id.nlm.nih.gov/mesh/D006305"
+      },
+      {
+        "label": "Heart Disease Risk Factors",
+        "code": "http://id.nlm.nih.gov/mesh/D000082742"
+      },
+      {
+        "label": "Hospitalization",
+        "code": "http://id.nlm.nih.gov/mesh/D006760"
+      },
+      {
+        "label": "Life Expectancy",
+        "code": "http://id.nlm.nih.gov/mesh/D008017"
+      },
+      {
+        "label": "Long-Term Care",
+        "code": "http://id.nlm.nih.gov/mesh/D008134"
+      },
+      {
+        "label": "Meat",
+        "code": "http://id.nlm.nih.gov/mesh/D008460"
+      },
+      {
+        "label": "Mental Disorders",
+        "code": "http://id.nlm.nih.gov/mesh/D001523"
+      },
+      {
+        "label": "Mortality",
+        "code": "http://id.nlm.nih.gov/mesh/D009026"
+      },
+      {
+        "label": "Obesity",
+        "code": "http://id.nlm.nih.gov/mesh/D009765"
+      },
+      {
+        "label": "Body Weight",
+        "code": "http://id.nlm.nih.gov/mesh/D050177"
+      },
+      {
+        "label": "Physical Activity",
+        "code": "http://id.nlm.nih.gov/mesh/D015444"
+      },
+      {
+        "label": "Population Health",
+        "code": "http://id.nlm.nih.gov/mesh/D000075485"
+      },
+      {
+        "label": "Poverty",
+        "code": "http://id.nlm.nih.gov/mesh/D011203"
+      },
+      {
+        "label": "Primary Health Care",
+        "code": "http://id.nlm.nih.gov/mesh/D011320"
+      },
+      {
+        "label": "Primary Prevention",
+        "code": "http://id.nlm.nih.gov/mesh/D011322"
+      },
+      {
+        "label": "Public Health Surveillance",
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
+      },
+      {
+        "label": "Public Reporting of Healthcare Data",
+        "code": "http://id.nlm.nih.gov/mesh/D000079204"
+      },
+      {
+        "label": "Secondary Prevention",
+        "code": "http://id.nlm.nih.gov/mesh/D055502"
+      },
+      {
+        "label": "Sedentary Behavior",
+        "code": "http://id.nlm.nih.gov/mesh/D057185"
+      },
+      {
+        "label": "Smoking",
+        "code": "http://id.nlm.nih.gov/mesh/D012907"
+      },
+      {
+        "label": "Social Determinants of Health",
+        "code": "http://id.nlm.nih.gov/mesh/D064890"
+      },
+      {
+        "label": "Social Environment",
+        "code": "http://id.nlm.nih.gov/mesh/D012931"
+      },
+      {
+        "label": "Social Factors",
+        "code": "http://id.nlm.nih.gov/mesh/D000083663"
+      },
+      {
+        "label": "Socioeconomic Factors",
+        "code": "http://id.nlm.nih.gov/mesh/D012959"
+      },
+      {
+        "label": "Stroke",
+        "code": "http://id.nlm.nih.gov/mesh/D020521"
+      },
+      {
+        "label": "Sugar-Sweetened Beverages",
+        "code": "http://id.nlm.nih.gov/mesh/D000080845"
+      },
+      {
+        "label": "Taxes",
+        "code": "http://id.nlm.nih.gov/mesh/D013660"
+      },
+      {
+        "label": "Tobacco Control",
+        "code": "http://id.nlm.nih.gov/mesh/D000092843"
+      },
+      {
+        "label": "Tobacco Smoking",
+        "code": "http://id.nlm.nih.gov/mesh/D000073869"
+      },
+      {
+        "label": "Vegetables",
+        "code": "http://id.nlm.nih.gov/mesh/D014675"
+      },
+      {
+        "label": "Secondary Data Analysis",
+        "code": "http://id.nlm.nih.gov/mesh/D000094422"
+      },
+      {
+        "label": "Sekundärdatenanalyse",
+        "code": "http://id.nlm.nih.gov/mesh/D000094422"
+      },
+      {
+        "label": "Health Insurance",
+        "code": "http://id.nlm.nih.gov/mesh/D007341"
+      },
+      {
+        "label": "Krankenversicherung",
+        "code": "http://id.nlm.nih.gov/mesh/D007341"
+      },
+      {
+        "label": "Blood Glucose Self-Monitoring",
+        "code": "http://id.nlm.nih.gov/mesh/D015190"
+      },
+      {
+        "label": "Blutglukose-Selbstbestimmung",
+        "code": "http://id.nlm.nih.gov/mesh/D015190"
+      },
+      {
+        "label": "Diabetische Retinopathie",
+        "code": "http://id.nlm.nih.gov/mesh/D003930"
+      },
+      {
+        "label": "Diabetic Retinopathy",
+        "code": "http://id.nlm.nih.gov/mesh/D003930"
+      },
+      {
+        "label": "Diabetic Foot",
+        "code": "http://id.nlm.nih.gov/mesh/D017719"
+      },
+      {
+        "label": "Diabetischer Fuß",
+        "code": "http://id.nlm.nih.gov/mesh/D017719"
+      },
+      {
+        "label": "Comorbidity",
+        "code": "http://id.nlm.nih.gov/mesh/D015897"
+      },
+      {
+        "label": "Komorbidität",
+        "code": "http://id.nlm.nih.gov/mesh/D015897"
+      },
+      {
+        "label": "Cardiovascular Disease",
+        "code": "http://id.nlm.nih.gov/mesh/D002318"
+      },
+      {
+        "label": "Kardiovaskuläre Erkrankung",
+        "code": "http://id.nlm.nih.gov/mesh/D002318"
+      },
+      {
+        "label": "Hypoglycemic Agents",
+        "code": "http://id.nlm.nih.gov/mesh/D007004"
+      },
+      {
+        "label": "Blutzuckersenkende Medikamente",
+        "code": "http://id.nlm.nih.gov/mesh/D007004"
+      },
+      {
+        "label": "Quality Of Life",
+        "code": "http://id.nlm.nih.gov/mesh/D011788"
+      },
+      {
+        "label": "Lebensqualität",
+        "code": "http://id.nlm.nih.gov/mesh/D011788"
+      }
+    ],
+    "languages": [
+      "DE (German)"
+    ],
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
+        },
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "version": "2025-07-09"
+    },
+    "webpage": "https://robert-koch-institut.github.io/Diabetes-Surveillance/",
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
+          }
+        ],
+        "nameType": "Organisational",
+        "organisational": {
+          "name": "Robert Koch-Institut",
+          "type": "Creator/Author"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Team der Nationalen Diabetes-Surveillance"
+          }
+        ],
+        "nameType": "Organisational",
+        "organisational": {
+          "name": "Team der Nationalen Diabetes-Surveillance",
+          "type": "Project leader"
+        }
+      }
+    ]
+  }
+}
