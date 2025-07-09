@@ -173,7 +173,7 @@ message: Cite me!
 url: https://robert-koch-institut.github.io/Diabetes-Surveillance/
 license: CC-BY-4.0
 doi: 10.5281/zenodo.14935276
-version: '2025-07-09T08:33:08+02:00'
+version: '2025-07-09T15:28:33+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
