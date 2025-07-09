@@ -5,7 +5,7 @@
   "homepage": "https://doi.org/10.5281/zenodo.14935275",
   "resources": [
     {
-      "name": "Diabetes-Surveillance_Indikatoren",
+      "name": "diabetes-surveillance_indikatoren",
       "type": "table",
       "path": "Diabetes-Surveillance_Indikatoren.tsv",
       "scheme": "file",

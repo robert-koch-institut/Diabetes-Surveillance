@@ -4,7 +4,7 @@
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2025-07-02",
+  "publication_date": "2025-07-09",
   "creators": [
     {
       "person_or_org": {
@@ -25,10 +25,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2025-07-02",
+  "version": "2025-07-09",
   "dates": [
     {
-      "date": "2025-07-02T13:32:47+02:00",
+      "date": "2025-07-09T08:33:08+02:00",
       "type": {
         "id": "created"
       },
@@ -59,6 +59,66 @@
   ],
   "subjects": [
     {
+      "subject": "Diabetes mellitus"
+    },
+    {
+      "subject": "Blood Glucose"
+    },
+    {
+      "subject": "Blutglukose"
+    },
+    {
+      "subject": "Metabolic Diseases"
+    },
+    {
+      "subject": "Stoffwechselerkrankungen"
+    },
+    {
+      "subject": "Public Health"
+    },
+    {
+      "subject": "Öffentliches Gesundheitswesen"
+    },
+    {
+      "subject": "Qualität des Gesundheitswesens"
+    },
+    {
+      "subject": "Quality of Health Care"
+    },
+    {
+      "subject": "Chronische Krankheit"
+    },
+    {
+      "subject": "Chronic Disease"
+    },
+    {
+      "subject": "RKI"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "Offene Daten"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "Germany"
+    },
+    {
+      "subject": "Nichtübertragbare Krankheiten"
+    },
+    {
+      "subject": "Noncommunicable diseases"
+    },
+    {
+      "subject": "Risikofaktoren"
+    },
+    {
+      "subject": "Risk Factors"
+    },
+    {
       "subject": "Adipositas"
     },
     {
@@ -77,22 +137,13 @@
       "subject": "Ausbildungsstand"
     },
     {
-      "subject": "Bevölkerungsgesundheit"
-    },
-    {
       "subject": "Bewegungsarme Lebensweise"
-    },
-    {
-      "subject": "Chronische Krankheit"
     },
     {
       "subject": "Depression"
     },
     {
       "subject": "Depressive Störung"
-    },
-    {
-      "subject": "Diabetes mellitus"
     },
     {
       "subject": "Diabeteskomplikationen"
@@ -116,13 +167,13 @@
       "subject": "Gesundheitsausgaben"
     },
     {
+      "subject": "Bevölkerungsgesundheit"
+    },
+    {
       "subject": "Gesundheitsförderung"
     },
     {
       "subject": "Gesundheitspolitik"
-    },
-    {
-      "subject": "Gesundheitsverhalten"
     },
     {
       "subject": "Gesundheitsversorgung"
@@ -164,22 +215,19 @@
       "subject": "Nahrungsaufnahmeverhalten"
     },
     {
-      "subject": "Nichtübertragbare Krankheiten"
-    },
-    {
       "subject": "Primärprävention"
     },
     {
       "subject": "Psychische Störungen"
     },
     {
-      "subject": "Qualität des Gesundheitswesens"
+      "subject": "Gesundheitsverhalten"
+    },
+    {
+      "subject": "Health Behavior"
     },
     {
       "subject": "Rauchen"
-    },
-    {
-      "subject": "Risikofaktoren"
     },
     {
       "subject": "Risikofaktoren für Herzkrankheiten"
@@ -221,22 +269,10 @@
       "subject": "Öffentliche Berichterstattung über Gesundheitsdaten"
     },
     {
-      "subject": "Öffentliches Gesundheitswesen"
-    },
-    {
       "subject": "Ökonomie"
     },
     {
       "subject": "Übergewicht"
-    },
-    {
-      "subject": "RKI"
-    },
-    {
-      "subject": "Offene Daten"
-    },
-    {
-      "subject": "Deutschland"
     },
     {
       "subject": "Activities of Daily Living"
@@ -255,9 +291,6 @@
     },
     {
       "subject": "Cause of Death"
-    },
-    {
-      "subject": "Chronic Disease"
     },
     {
       "subject": "Consumer Price Index"
@@ -297,9 +330,6 @@
     },
     {
       "subject": "Gestational Diabetes Mellitus"
-    },
-    {
-      "subject": "Health Behavior"
     },
     {
       "subject": "Health Expenditures"
@@ -344,13 +374,10 @@
       "subject": "Mortality"
     },
     {
-      "subject": "Noncommunicable diseases"
-    },
-    {
       "subject": "Obesity"
     },
     {
-      "subject": "Overweight"
+      "subject": "Body Weight"
     },
     {
       "subject": "Physical Activity"
@@ -368,19 +395,10 @@
       "subject": "Primary Prevention"
     },
     {
-      "subject": "Public Health"
-    },
-    {
       "subject": "Public Health Surveillance"
     },
     {
       "subject": "Public Reporting of Healthcare Data"
-    },
-    {
-      "subject": "Quality of Health Care"
-    },
-    {
-      "subject": "Risk Factors"
     },
     {
       "subject": "Secondary Prevention"
@@ -422,10 +440,58 @@
       "subject": "Vegetables"
     },
     {
-      "subject": "Open Data"
+      "subject": "Secondary Data Analysis"
     },
     {
-      "subject": "Germany"
+      "subject": "Sekundärdatenanalyse"
+    },
+    {
+      "subject": "Health Insurance"
+    },
+    {
+      "subject": "Krankenversicherung"
+    },
+    {
+      "subject": "Blood Glucose Self-Monitoring"
+    },
+    {
+      "subject": "Blutglukose-Selbstbestimmung"
+    },
+    {
+      "subject": "Diabetische Retinopathie"
+    },
+    {
+      "subject": "Diabetic Retinopathy"
+    },
+    {
+      "subject": "Diabetic Foot"
+    },
+    {
+      "subject": "Diabetischer Fuß"
+    },
+    {
+      "subject": "Comorbidity"
+    },
+    {
+      "subject": "Komorbidität"
+    },
+    {
+      "subject": "Cardiovascular Disease"
+    },
+    {
+      "subject": "Kardiovaskuläre Erkrankung"
+    },
+    {
+      "subject": "Hypoglycemic Agents"
+    },
+    {
+      "subject": "Blutzuckersenkende Medikamente"
+    },
+    {
+      "subject": "Quality Of Life"
+    },
+    {
+      "subject": "Lebensqualität"
     }
   ],
   "custom_fields": {

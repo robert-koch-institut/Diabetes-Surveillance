@@ -22,20 +22,37 @@ abstract: >-
   Publikationsserver des RKI veröffentlicht. Zukünftig werden ausgewählte
   zentrale Diabetes-Indikatoren als Teil einer übergreifenden NCD-Surveillance
   unter http://www.gbe.rki.de regelmäßig mit neuen Daten aktualisiert werden. 
-date-released: '2025-07-02'
+date-released: '2025-07-09'
 keywords:
+  - Diabetes mellitus
+  - Blood Glucose
+  - Blutglukose
+  - Metabolic Diseases
+  - Stoffwechselerkrankungen
+  - Public Health
+  - Öffentliches Gesundheitswesen
+  - Qualität des Gesundheitswesens
+  - Quality of Health Care
+  - Chronische Krankheit
+  - Chronic Disease
+  - RKI
+  - Open Data
+  - Offene Daten
+  - Deutschland
+  - Germany
+  - Nichtübertragbare Krankheiten
+  - Noncommunicable diseases
+  - Risikofaktoren
+  - Risk Factors
   - Adipositas
   - Aktivitäten des täglichen Lebens
   - Ambulante Behandlung
   - Amputation
   - Armut
   - Ausbildungsstand
-  - Bevölkerungsgesundheit
   - Bewegungsarme Lebensweise
-  - Chronische Krankheit
   - Depression
   - Depressive Störung
-  - Diabetes mellitus
   - Diabeteskomplikationen
   - Diät, Lebensmittel und Ernährung
   - Erziehung und Ausbildung
@@ -43,9 +60,9 @@ keywords:
   - Früchte
   - Gemüse
   - Gesundheitsausgaben
+  - Bevölkerungsgesundheit
   - Gesundheitsförderung
   - Gesundheitspolitik
-  - Gesundheitsverhalten
   - Gesundheitsversorgung
   - Gesundheitszustand
   - Gesundheitszustandsindikatoren
@@ -59,12 +76,11 @@ keywords:
   - Medizinische Grundversorgung
   - Mortalität
   - Nahrungsaufnahmeverhalten
-  - Nichtübertragbare Krankheiten
   - Primärprävention
   - Psychische Störungen
-  - Qualität des Gesundheitswesens
+  - Gesundheitsverhalten
+  - Health Behavior
   - Rauchen
-  - Risikofaktoren
   - Risikofaktoren für Herzkrankheiten
   - Schlaganfall
   - Sekundärprävention
@@ -78,19 +94,14 @@ keywords:
   - Verhalten bei Gesundheitsrisiken
   - Zuckergesüßte Getränke
   - Öffentliche Berichterstattung über Gesundheitsdaten
-  - Öffentliches Gesundheitswesen
   - Ökonomie
   - Übergewicht
-  - RKI
-  - Offene Daten
-  - Deutschland
   - Activities of Daily Living
   - Ambulatory Care
   - Amputation
   - Body Weight
   - Cardiovascular Diseases
   - Cause of Death
-  - Chronic Disease
   - Consumer Price Index
   - Coronary Artery Disease
   - Delivery of Health Care
@@ -104,7 +115,6 @@ keywords:
   - Educational status
   - Fruit
   - Gestational Diabetes Mellitus
-  - Health Behavior
   - Health Expenditures
   - Health Inequalities
   - Health Policy
@@ -119,19 +129,15 @@ keywords:
   - Meat
   - Mental Disorders
   - Mortality
-  - Noncommunicable diseases
   - Obesity
-  - Overweight
+  - Body Weight
   - Physical Activity
   - Population Health
   - Poverty
   - Primary Health Care
   - Primary Prevention
-  - Public Health
   - Public Health Surveillance
   - Public Reporting of Healthcare Data
-  - Quality of Health Care
-  - Risk Factors
   - Secondary Prevention
   - Sedentary Behavior
   - Smoking
@@ -145,13 +151,29 @@ keywords:
   - Tobacco Control
   - Tobacco Smoking
   - Vegetables
-  - Open Data
-  - Germany
+  - Secondary Data Analysis
+  - Sekundärdatenanalyse
+  - Health Insurance
+  - Krankenversicherung
+  - Blood Glucose Self-Monitoring
+  - Blutglukose-Selbstbestimmung
+  - Diabetische Retinopathie
+  - Diabetic Retinopathy
+  - Diabetic Foot
+  - Diabetischer Fuß
+  - Comorbidity
+  - Komorbidität
+  - Cardiovascular Disease
+  - Kardiovaskuläre Erkrankung
+  - Hypoglycemic Agents
+  - Blutzuckersenkende Medikamente
+  - Quality Of Life
+  - Lebensqualität
 message: Cite me!
 url: https://robert-koch-institut.github.io/Diabetes-Surveillance/
 license: CC-BY-4.0
 doi: 10.5281/zenodo.14935276
-version: '2025-07-02T13:32:47+02:00'
+version: '2025-07-09T08:33:08+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
