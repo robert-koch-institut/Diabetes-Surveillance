@@ -1,7 +1,7 @@
 <!-- HEADER_START: {"lang": "de"} -->
 
 
-Dokumentation
+Dokumentation  
 # Ergebnisse der Diabetes-Surveillance 2015 - 2024
 
 <br> 
@@ -13,17 +13,36 @@ Dokumentation
 <br> 
 
 **Beitragende**   
-Team der Nationalen Diabetes-Surveillance &sup1;&#119058;&sup2;
+Team der Nationalen Diabetes-Surveillance&sup1;&#119058;&sup2;
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 24](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG24/fg24-gesundheitsberichterstattung-node.html)  
-&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 25](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG25/fg25-koerperliche-gesundheit-node.html)
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 24](https://www.rki.de/fg24)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 25](https://www.rki.de/fg25)
 
 <br> 
 
 **Zitieren**  
 Robert Koch-Institut. (2025). Ergebnisse der Diabetes-Surveillance 2015 - 2024 [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14935276](https://doi.org/10.5281/zenodo.14935276)
 
+<br>
 
+
+**Zusammenfassung**    
+Im Datensatz "Ergebnisse der Diabetes-Surveillance 2015 - 2024" des Robert Koch-Instituts werden Informationen zu Diabetes mellitus in Deutschland bereitgestellt. Im Rahmen des zugrundeliegenden Projekts "Diabetes-Surveillance" wurde ein indikatorbasiertes Surveillance-System für die zeitnahe und regelmäßige Berichterstattung zu Krankheitsdynamik, Versorgungsqualität, Determinanten und Folgeerkrankungen von Diabetes mellitus in Deutschland etabliert. Der Datensatz umfasst aggregierte Auswertungen zu 40 Indikatoren und Indikatorgruppen, strukturiert nach vier gesundheitsrelevanten Handlungsfeldern: Diabetesrisiko reduzieren, Diabetesfrüherkennung und -behandlung verbessern, Diabeteskomplikationen reduzieren sowie Krankheitslast und -kosten senken. Die Indikatoren basieren auf Primär- und Sekundärdaten (u.a. Gesundheitsbefragungen, amtliche Statistik, Krankenkassendaten) und wurden standardisiert nach Geschlecht, Alter, Region und Bildung aufbereitet. Zudem wird zwischen Kindern und Jugendlichen sowie Erwachsenen unterschieden. Der Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem Publikationsserver des RKI veröffentlicht (https://edoc.rki.de/handle/176904/12467).
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Administrative und organisatorische Angaben](#administrative-und-organisatorische-angaben)
+  - [Entstehungskontext](#entstehungskontext)
+  - [Daten und Datenaufbereitung](#daten-und-datenaufbereitung)
+  - [Indikatoren](#indikatoren)
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
 
 <!-- HEADER_END -->
 
@@ -33,7 +52,7 @@ Am Robert Koch-Institut (RKI) wurde im Zeitraum 2015-2024 ein indikatorbasiertes
 Der Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem Publikationsserver des RKI (https://edoc.rki.de/handle/176904/12467) veröffentlicht. Zukünftig werden ausgewählte zentrale Diabetes-Indikatoren als Teil einer übergreifenden NCD-Surveillance unter http://www.gbe.rki.de regelmäßig mit neuen Daten aktualisiert werden.  
 
 ## Administrative und organisatorische Angaben
-Das Projekt Diabetes-Surveillance wurde von einem fachgebietsübergreifenden Projektteam in der [Abteilung für Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) (Abteilung 2) durchgeführt. Die wissenschaftliche Leitung des Projekts lag in den Fachgebieten „Körperliche Gesundheit (FG25)“ (Projektleitung Dr. Christa Scheidt-Nave, ab 2023 Dr. Christin Heidemann) und „Gesundheitsberichterstattung (FG24)“ (Stellvertretende Projektleitung Dr. Thomas Ziese). Die Koordination des Projekts übernahmen Dr. Christin Heidemann (FG25) und Dr. Lukas Reitzle (FG 24) und ab 2022 zudem Maike Buchmann (FG25).  
+Das Projekt Diabetes-Surveillance wurde von einem fachgebietsübergreifenden Projektteam in der [Abteilung für Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/abt2) (Abteilung 2) durchgeführt. Die wissenschaftliche Leitung des Projekts lag in den Fachgebieten „Körperliche Gesundheit (FG25)“ (Projektleitung Dr. Christa Scheidt-Nave, ab 2023 Dr. Christin Heidemann) und „Gesundheitsberichterstattung (FG24)“ (Stellvertretende Projektleitung Dr. Thomas Ziese). Die Koordination des Projekts übernahmen Dr. Christin Heidemann (FG25) und Dr. Lukas Reitzle (FG 24) und ab 2022 zudem Maike Buchmann (FG25).  
 Zur Entwicklung des inhaltlichen Rahmenkonzepts und zur Auswahl und Definition der Indikatoren erfolgten zunächst umfangreiche Literaturrecherchen und nationale und internationale Workshops. Anhand eines strukturierten Konsensprozesses wurde durch den wissenschaftlichen Beirat der Diabetes-Surveillance ein umfassendes Indikatorenset abgestimmt (https://doi.org/10.17886/RKI-GBE-2018-061; https://doi.org/10.1515/pubhef-2021-0081). Dieses besteht aus 30 Kern- und 10 Zusatzindikatoren, die den folgenden vier Handlungsfeldern zugeordnet werden: 
 * (1) Diabetesrisiko reduzieren, 
 * (2) Diabetesfrüherkennung und -behandlung verbessern, 
@@ -41,7 +60,7 @@ Zur Entwicklung des inhaltlichen Rahmenkonzepts und zur Auswahl und Definition d
 * (4) Krankheitslast und Krankheitskosten senken.  
 
 Neben den Primärdaten des RKI-Gesundheitsmonitorings wurden auch verfügbare Sekundärdatenquellen zur Abbildung der Indikatoren der Diabetes-Surveillance herangezogen.  
-Die Datenaufbereitung der RKI-Gesundheitsstudien (Bundes-Gesundheitssurvey 1997-1999 (BGS98), Studie zur Gesundheit Erwachsener in Deutschland 2008 – 2011 (DEGS1), [Gesundheit in Deutschland aktuell](https://www.rki.de/geda) (GEDA)) wurde maßgeblich von [FG 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG21/fg21-epidemiologisches-daten-und-befragungszentren-node.html) unterstützt. Die Bewertung der verfügbaren Daten sowie Berechnung der Ergebnisse zur Abbildung der Indikatoren, nach Möglichkeit differenziert nach Geschlecht, Alter, Region und Bildung bzw. regionaler sozioökonomischer Deprivation erfolgte durch das Projektteam bzw. teilweise durch die Datenhaltenden. Die inhaltliche Einordnung und Erstellung der Texte wurden vom Projektteam, zum Teil unter Beratung der jeweils fachlich zuständigen Fachgebiete übernommen. Folgende Fachgebiete haben dabei essenziell mitgewirkt: [FG 24 | Gesundheitsberichterstattung](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG24/fg24-gesundheitsberichterstattung-node.html), [FG 25| Körperliche Gesundheit](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG25/fg25-koerperliche-gesundheit-node.html), [FG 26 | Psychische Gesundheit](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG26/fg26-psychische-gesundheit-node.html), [FG 27 | Gesundheitsverhalten](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG27/fg27-gesundheitsverhalten-node.html), [FG 28 | Soziale Determinanten der Gesundheit](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG28/fg28-soziale-determinanten-der-gesundheit-node.html). Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.   
+Die Datenaufbereitung der RKI-Gesundheitsstudien (Bundes-Gesundheitssurvey 1997-1999 (BGS98), Studie zur Gesundheit Erwachsener in Deutschland 2008 – 2011 (DEGS1), [Gesundheit in Deutschland aktuell](https://www.rki.de/geda) (GEDA)) wurde maßgeblich von [FG 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/fg21) unterstützt. Die Bewertung der verfügbaren Daten sowie Berechnung der Ergebnisse zur Abbildung der Indikatoren, nach Möglichkeit differenziert nach Geschlecht, Alter, Region und Bildung bzw. regionaler sozioökonomischer Deprivation erfolgte durch das Projektteam bzw. teilweise durch die Datenhaltenden. Die inhaltliche Einordnung und Erstellung der Texte wurden vom Projektteam, zum Teil unter Beratung der jeweils fachlich zuständigen Fachgebiete übernommen. Folgende Fachgebiete haben dabei essenziell mitgewirkt: [FG 24 | Gesundheitsberichterstattung](https://www.rki.de/fg24), [FG 25| Körperliche Gesundheit](https://www.rki.de/fg25), [FG 26 | Psychische Gesundheit](https://www.rki.de/fg26), [FG 27 | Gesundheitsverhalten](https://www.rki.de/fg27), [FG 28 | Soziale Determinanten der Gesundheit](https://www.rki.de/fg28). Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.   
 
 ## Entstehungskontext
 Das im Zeitraum 2015-2024 in vier Förderphasen vom Bundesministerium für Gesundheit geförderte Projekt der Diabetes-Surveillance (Förderkennzeichen : GE20150323, GE20190305, 2522DIA700, 2523DIA002) hatte zum Ziel, verlässliche Informationen zur gesundheitlichen Lage der Bevölkerung in Deutschland im Kontext des Diabetes als eine der häufigsten NCD, zu liefern und damit zudem Voraussetzungen für den Aufbau einer NCD-Surveillance zu schaffen. Zum einen weisen beispielsweise aktuelle Informationen und zeitliche Trends in der Bevölkerung Deutschlands zur Inzidenz, Prävalenz und Sterblichkeit sowie zur Versorgungsqualität auf gesundheitspolitische Handlungsbedarfe hin. Zum anderen unterstützen die Informationen zu den verhaltens- und verhältnisbasierten Determinanten bei der Entwicklung von Primärpräventionsmaßnahmen und deren Evaluation. Kernziel der Diabetes-Surveillance war daher der Auf- und Ausbau indikatorenbasierter Zeitreihen mithilfe von Primär- und Sekundärdaten. Zur Ergebnisverbreitung wurden eine Webseite (www.diabsurv.rki.de) entwickelt sowie der Diabetes-Bericht 2019 und deutsch- und englischsprachige Fachpublikationen veröffentlicht. Auf der Webseite wurde jeder Indikator (epidemiologische Kennzahl), beispielsweise die Häufigkeit von Schwangerschaftsdiabetes (Prävalenz Gestationsdiabetes), auf einer Subseite in interaktiven Grafiken abgebildet, wobei die Ergebnisse textlich beschrieben und in einem Fazit eingeordnet wurden. Der Ergebnisstand der Diabetes-Surveillance wurde zum Projektende 2024 in Form von einzeln als PDF zugänglichen Faktenblättern des RKI aufbereitet und veröffentlicht (https://edoc.rki.de/handle/176904/12467).  
