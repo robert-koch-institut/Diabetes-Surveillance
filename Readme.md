@@ -54,6 +54,7 @@ Der Ergebnisstand der Diabetes-Surveillance zum Projektende 2024 ist auf dem Pub
 ## Administrative und organisatorische Angaben
 Das Projekt Diabetes-Surveillance wurde von einem fachgebietsübergreifenden Projektteam in der [Abteilung für Epidemiologie und Gesundheitsmonitoring](https://www.rki.de/abt2) (Abteilung 2) durchgeführt. Die wissenschaftliche Leitung des Projekts lag in den Fachgebieten „Körperliche Gesundheit (FG25)“ (Projektleitung Dr. Christa Scheidt-Nave, ab 2023 Dr. Christin Heidemann) und „Gesundheitsberichterstattung (FG24)“ (Stellvertretende Projektleitung Dr. Thomas Ziese). Die Koordination des Projekts übernahmen Dr. Christin Heidemann (FG25) und Dr. Lukas Reitzle (FG 24) und ab 2022 zudem Maike Buchmann (FG25).  
 Zur Entwicklung des inhaltlichen Rahmenkonzepts und zur Auswahl und Definition der Indikatoren erfolgten zunächst umfangreiche Literaturrecherchen und nationale und internationale Workshops. Anhand eines strukturierten Konsensprozesses wurde durch den wissenschaftlichen Beirat der Diabetes-Surveillance ein umfassendes Indikatorenset abgestimmt (https://doi.org/10.17886/RKI-GBE-2018-061; https://doi.org/10.1515/pubhef-2021-0081). Dieses besteht aus 30 Kern- und 10 Zusatzindikatoren, die den folgenden vier Handlungsfeldern zugeordnet werden: 
+
 * (1) Diabetesrisiko reduzieren, 
 * (2) Diabetesfrüherkennung und -behandlung verbessern, 
 * (3) Diabeteskomplikationen reduzieren, 
@@ -78,6 +79,7 @@ Limitationen ergeben sich aus den Datenquellen sowie aus der Methodik zur Berech
 Auf die spezifischen Limitationen der einzelnen Indikatoren wird in der Beschreibung der Methodik unter „Datenqualität“ eingegangen.  
 ## Indikatoren
 Das Kernstück der Diabetes-Surveillance ist das Indikatorenset mit insgesamt 40 definierten Indikatoren bzw. Indikatorgruppen, die in vier Handlungsfelder eingeordnet sind:
+
 * „Handlungsfeld 1 - Diabetesrisiko reduzieren“ umfasst Indikatoren, die die Prävalenz von Einflussfaktoren für die Entwicklung eines Typ-2-Diabetes in der Bevölkerung darstellen, darunter verhaltensbasierte Faktoren wie z.B. „Rauchen“ und verhältnisbasierte Kontextfaktoren wie z.B. „Armutsrisikoquote“. Außerdem werden das 5-Jahres-Diabetesrisiko auf Basis eines Risikoscores, die Inzidenz des Diabetes und die Krankheitsvorstufe „Prädiabetes“ abgebildet.
 * „Handlungsfeld 2 – Diabetesfrüherkennung und -behandlung verbessern“ beinhaltet die „Prävalenz bekannter und unerkannter Diabetes“ sowie verschiedene Aspekte der Prozess- und Ergebnisqualität im Rahmen der Früherkennung und Behandlung von Diabetes wie z.B. „Screening Gestationsdiabetes“, die Indikatorgruppe „Versorgungsqualität des Typ-2-Diabetes“ und die „Selbsteingeschätzte Versorgungsqualität“.
 * „Handlungsfeld 3 – Diabeteskomplikationen reduzieren“ fokussiert auf die Häufigkeit von akut auftretenden bzw. sich über einen längeren Zeitraum entwickelnden Folgeerkrankungen des Diabetes wie z.B. „Häufigkeit schwerer Hypoglykämien“ und „Diabetesbedingte Amputationen“ sowie auf die Häufigkeit von Begleiterkrankungen bei Personen mit Diabetes im Vergleich zu Personen ohne Diabetes wie z.B. „Kardiovaskuläre Erkrankungen“ und „Depressive Symptomatik“.
@@ -181,6 +183,7 @@ Für das Handlungsfeld 4 „Krankheitslast und Krankheitskosten senken“ der Di
 
 ## Aufbau und Inhalt des Datensatzes
 Der Datensatz enthält die aggregierten und ausgewerteten Daten der Diabetes-Surveillance am RKI. Im Datensatz enthalten sind:
+
 * Ergebnisse der Diabetes-Surveillance aus der Projektlaufzeit 2015-2024
 * Datensatzdokumentation in deutscher Sprache
 * Datenschema im [Data Package Standard](https://datapackage.org/)
@@ -252,9 +255,10 @@ Bei einigen Indikatoren werden die Bundesländer in 5 Regionen zusammengefasst, 
 | West | 32 | Baden-Württemberg, Bayern, Bremen, Hamburg, Hessen, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Schleswig-Holstein (West = alte Bundesländer ohne Berlin) |
 
 #### Formatierung
-Die Daten sind im Datensatz als tabseparierte Datei (TSV) enthalten. Der verwendete Zeichensatz der TSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab "\t".
+Die Daten sind im Datensatz als Tab-separierte Datei (TSV) enthalten. Der verwendete Zeichensatz der TSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab `\t`.
+
 * Zeichensatz: UTF-8
-* TSV-Trennzeichen: Tab "\t"
+* TSV-Trennzeichen: Tab `\t`
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
