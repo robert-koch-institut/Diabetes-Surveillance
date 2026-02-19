@@ -431,7 +431,7 @@
     {
       "name": "Bildung_Isced_ID",
       "type": "string",
-      "description": "Bildungsgruppe anhand des ISCED-Indexes (UNESCO (2011): International Standard Classification of Education ISCED 2011. Quebec: UNESCO Institute for Statistics; 2012 [cited 30.04.2025]. Available from:.\nhttps://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf). Dieser verwendet Angaben zu schulischer und beruflicher Bildung und ermöglicht die Einteilung der Bildungsgruppen in `1` = untere, `2`= mittlere, `3`= obere. Die Ausprägung `0` = Gesamt beinhaltet alle Bildungsgruppen. Enthält `NA`, für alle Indikatoren außer Armutsrisikoquote.",
+      "description": "Bildungsgruppe anhand des ISCED-Indexes (UNESCO (2011): International Standard Classification of Education ISCED 2011. Quebec: UNESCO Institute for Statistics; 2012 [cited 30.04.2025]. Available from:.\nhttps://www.openemis.org/wp-content/uploads/2018/04/unesco-international-standard-classification-education-isced-2011-en.pdf). Dieser verwendet Angaben zu schulischer und beruflicher Bildung und ermöglicht die Einteilung der Bildungsgruppen in `1` = untere, `2`= mittlere, `3`= obere. Die Ausprägung `0` = Gesamt beinhaltet alle Bildungsgruppen. Enthält `NA`, für alle Indikatoren außer Armutsrisikoquote.",
       "missingValues": [
         "NA"
       ],
